@@ -1,0 +1,72 @@
+.post {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.postDots {
+    position: absolute;
+    color: gray;
+    top: 5px;
+    right: 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.postDots:hover {
+    opacity: 0.75;
+}
+
+.postDotsPopup {
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    padding: 8px 12px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 1px 5px;
+    color: gray;
+}
+.postDotsPopup:hover {
+    background: whitesmoke;
+}
+
+.postDotsPopup:hover {
+    background: whitesmoke;
+}
+
+.postDotsPopup button:hover {
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+.postHeader {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.postInfo {
+    margin-left: 10px;
+}
+
+.postInfo p {
+    color: gray;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.postBody {
+    overflow-wrap: anywhere;
+}
+
+.postInfo h2 {
+    font-size: 15px;
+}
+
+.postButtons {
+    display: flex;
+}
